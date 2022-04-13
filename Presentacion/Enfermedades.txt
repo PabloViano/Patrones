@@ -1,0 +1,1 @@
+[{"Codigo":1,"Tipo":0,"Nombre":"Gripe","CostoAsociado":25000.0},{"Codigo":2,"Tipo":0,"Nombre":"Gripe","CostoAsociado":25000.0}]

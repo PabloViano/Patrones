@@ -1,0 +1,17 @@
+A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Logica\bin\Debug\net6.0\Logica.deps.json
+A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Logica\bin\Debug\net6.0\Logica.dll
+A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Logica\bin\Debug\net6.0\Logica.pdb
+A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Logica\bin\Debug\net6.0\Entidades.dll
+A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Logica\bin\Debug\net6.0\Persistencia.dll
+A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Logica\bin\Debug\net6.0\Entidades.pdb
+A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Logica\bin\Debug\net6.0\Persistencia.pdb
+A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Logica\obj\Debug\net6.0\Logica.csproj.AssemblyReference.cache
+A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Logica\obj\Debug\net6.0\Logica.GeneratedMSBuildEditorConfig.editorconfig
+A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Logica\obj\Debug\net6.0\Logica.AssemblyInfoInputs.cache
+A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Logica\obj\Debug\net6.0\Logica.AssemblyInfo.cs
+A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Logica\obj\Debug\net6.0\Logica.csproj.CoreCompileInputs.cache
+A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Logica\obj\Debug\net6.0\Logica.csproj.CopyComplete
+A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Logica\obj\Debug\net6.0\Logica.dll
+A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Logica\obj\Debug\net6.0\refint\Logica.dll
+A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Logica\obj\Debug\net6.0\Logica.pdb
+A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Logica\obj\Debug\net6.0\ref\Logica.dll

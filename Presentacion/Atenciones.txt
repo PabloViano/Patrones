@@ -1,0 +1,1 @@
+[{"Numero":1,"Fecha":"2022-04-13T00:00:00-03:00","DatosEnfermedad":{"Codigo":1,"Tipo":0,"Nombre":"Gripe","CostoAsociado":25000.0},"DatosCliente":{"NombreYApellido":"Pablo Viano","DNI":123456,"FechaNacimiento":"2022-04-13T00:00:00-03:00","Ciudad":"Rafaela","IngresosNetosAnuales":10000.0}}]

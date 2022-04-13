@@ -1,0 +1,1 @@
+[{"NombreYApellido":"Pablo Viano","DNI":123456,"FechaNacimiento":"2022-04-13T00:00:00-03:00","Ciudad":"Rafaela","IngresosNetosAnuales":10000.0}]
