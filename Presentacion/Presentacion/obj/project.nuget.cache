@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VzdAWbWd/3HVtRzzA9o3K3zzDzfH3h6OKlNiFeQhpVzXkwvO+VcZqtTNLAkQxh0u7RidsnqyM0aIhqlz6sgGyA==",
+  "dgSpecHash": "3QxBhSI7CI3AsxTZVEIewFF/rfvRnOjynVpuB8i+p4c9vysJYsAQcMy701Uq391HOm9XhIZFqSSQvdDdS+CO4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\UCSE\\OneDrive - Universidad Católica de Santiago del Estero\\Documentos\\Prog\\Patrones\\Patrones\\Presentacion\\Presentacion\\Presentacion.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "A:\\User\\Pablo\\Universidad\\Programacion ll\\Patrones\\Patrones\\Presentacion\\Presentacion\\Presentacion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pablo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

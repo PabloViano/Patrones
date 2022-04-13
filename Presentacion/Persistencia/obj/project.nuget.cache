@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+9fNPb9mkwwoqCb5DuuafJCSBX5W8YmBki5+ioxvOsngq+Y6F4lXvzqwL0qFFPJW3EftCvTV1Oa09RRTQ+EWZA==",
+  "dgSpecHash": "g9l6/nrIBPmBVydTSObbX3/cRvCzCosUn5DrComyCI4NLKTrVrwNFaqdxO+PuajsD03FzdMA/CbBUo+ckBqITg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\UCSE\\OneDrive - Universidad Católica de Santiago del Estero\\Documentos\\Prog\\Patrones\\Patrones\\Presentacion\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "A:\\User\\Pablo\\Universidad\\Programacion ll\\Patrones\\Patrones\\Presentacion\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\UCSE\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\pablo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }
