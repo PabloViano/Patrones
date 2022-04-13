@@ -27,9 +27,9 @@ namespace Persistencia
         }
         string pathPersonas = @"A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Personas.txt";
         List<Persona>? Personas = new List<Persona>();
-        string pathCoberturas = @"A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Presentacion\Coberturas.txt";
+        string pathCoberturas = @"A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Coberturas.txt";
         List<Cobertura>? Coberturas = new List<Cobertura>();
-        public const string pathEnfermedades = @"A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Enfermedades.txt";
+        string pathEnfermedades = @"A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Enfermedades.txt";
         List<Enfermedad>? Enfermedades = new List<Enfermedad>();
         string pathAtenciones = @"A:\User\Pablo\Universidad\Programacion ll\Patrones\Patrones\Presentacion\Atenciones.txt";
         List<Atencion>? Atenciones = new List<Atencion>();

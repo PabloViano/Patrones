@@ -43,7 +43,7 @@ namespace Logica
         }
         public decimal CargarNuevaAtencion(int dni, int codigoEnfermedad)
         {
-            CargarCliente();
+            GuardarListadosYCargar();
             if (Enfermedades.Find(x => x.Codigo == codigoEnfermedad) != null && Personas.Find(x => x.DNI == dni) != null)
             {
                 Atencion atencion = new Atencion(Atenciones.Count() + 1, DateTime.Now.Date, Enfermedades.Find(x => x.Codigo == codigoEnfermedad), Personas.Find(x => x.DNI == dni));
@@ -56,7 +56,7 @@ namespace Logica
         }
         public int BuscarEnfermedad (string nombre)
         {
-             CargarEnfermedades();
+            Enfermedades = principal.LeerEnfermedades();
              Enfermedad? encontrada = Enfermedades.Find(x => x.Nombre == nombre);
              return encontrada.Codigo;
         }
@@ -97,6 +97,38 @@ namespace Logica
             persona.NombreYApellido = "Pablo Viano";
             Personas.Add(persona);
             principal.GuardarListadoPersonas(Personas);
+        }
+        public void CargarCoberturas()
+        {
+            CoberturaMaxima coberturaMaxima = new CoberturaMaxima();
+            CoberturaNormal coberturaNormal = new CoberturaNormal();
+            coberturaNormal.CantidadPersonasMaxGF = 5;
+            coberturaMaxima.CantidadPersonasMaxGF = 10;
+            coberturaNormal.Empresa = "Atilra";
+            coberturaMaxima.Empresa = "SancorSeguros";
+            coberturaNormal.Enfermedades = Enfermedades;
+            coberturaMaxima.Enfermedades = Enfermedades;
+            coberturaNormal.Descripcion = "Normal";
+            coberturaMaxima.Descripcion = "Maxima";
+            coberturaNormal.CostoBase = 1000;
+            coberturaMaxima.CostoBase = 3000;
+            coberturaMaxima.CostoFinal = coberturaMaxima.CalcularCostoCobertura().CostoFinal;
+            coberturaNormal.CostoFinal = coberturaNormal.CalcularCostoCobertura().CostoFinal;
+            if (coberturaMaxima is Cobertura != false && coberturaNormal is Cobertura != false)
+            {
+                Coberturas.Add(coberturaMaxima);
+                Coberturas.Add(coberturaNormal);
+            }
+            principal.GuardarListadoCoberturas(Coberturas);
+        }
+        public void GuardarListadosYCargar()
+        {
+            CargarCliente();
+            CargarCoberturas();
+            CargarEnfermedades();
+            principal.GuardarListadoCoberturas(Coberturas);
+            principal.GuardarListadoPersonas(Personas);
+            principal.GuardarListadoEnfermedades(Enfermedades);
         }
     }
 }
